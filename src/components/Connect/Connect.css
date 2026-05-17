@@ -1,0 +1,93 @@
+.connect-section {
+  background: linear-gradient(135deg, #8b4513 0%, #d4a574 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.connect-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.connect-section h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.connect-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 30px;
+  background: white;
+  color: #8b4513;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #f5f5f5;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn svg {
+  font-size: 1.2rem;
+}
+
+.linkedin-btn:hover {
+  color: #0077b5;
+}
+
+.instagram-btn:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+}
+
+.whatsapp-btn:hover {
+  color: #25d366;
+}
+
+@media (max-width: 768px) {
+  .connect-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .connect-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 200px;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,59 @@
+.hero-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  opacity: 0;
+}
+
+.hero-text.appear {
+  animation: magicalAppear 1.5s ease-out forwards;
+}
+
+@keyframes magicalAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotateY(90deg);
+    filter: blur(10px);
+  }
+  50% {
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg);
+  }
+}
+
+.magical-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+  font-family: 'Georgia', serif;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin-top: 10px;
+}
+

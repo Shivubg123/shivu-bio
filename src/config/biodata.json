@@ -1,0 +1,36 @@
+{
+  "groom": {
+    "name": "SHIVU B G",
+    "image": "groom.png",
+    "dateOfBirth": "1996-03-30",
+    "height": "5'4\"",
+    "father kula": "Kwatana kula",
+    "mother kula": "Honna ungura kula",
+    "kulaDevatha": "Honnabhogi beeralingeshwara swamy, Hochihalli & Keresanthe Mahalakshmi devi",
+    "cast": "Hindu - Kuruba",
+    "birthStar": "Ashlesha",
+    "rasi": "Karkataka",
+    "fatherName": "Mr. Gurumurthy B M",
+    "motherName": "Mrs. Shyla B N",
+    "siblings": "2 sisters(married)",
+    "familyBackground": "Well-established business family",
+    "occupation": "Quality Engineer",
+    "company": "Bharath Fritz Werner Ltd",
+    "salary": "Confidential",
+    "education": "B.Tech in mechanical Science",
+    "address": {
+      "city": "Birur",
+      "state": "Karnataka"
+    },
+    "currentResidence": "Anekal, Bangalore"
+  },
+  "gallery": [
+    { "image": "gallery-1.jpg", "caption": "Professional Photo" },
+    { "image": "gallery-2.jpg", "caption": "Casual Moment" },
+    { "image": "gallery-3.jpg", "caption": "Travel Photo" }
+  ],
+  "connections": {
+    "instagram": "https://instagram.com/shivu__b__g",
+    "whatsapp": "+91-9876543210"
+  }
+}
