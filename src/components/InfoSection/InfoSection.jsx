@@ -16,8 +16,7 @@ export const InfoSection = ({ groom }) => {
         { label: 'Siblings', value: groom.siblings },
         { label: 'Father Kula', value: groom['father kula'] },
         { label: 'Mother Kula', value: groom['mother kula'] },
-        { label: 'Kula Devatha', value: groom.kulaDevatha },
-        { label: 'Family Background', value: groom.familyBackground }
+        { label: 'Kula Devatha', value: groom.kulaDevatha }
       ]
     },
     { title: 'Professional', data: [
