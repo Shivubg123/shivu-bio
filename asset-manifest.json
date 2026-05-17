@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/shivu-bio/static/css/main.437501ce.css",
-    "main.js": "/shivu-bio/static/js/main.a49cbabc.js",
+    "main.js": "/shivu-bio/static/js/main.272ef6b2.js",
     "index.html": "/shivu-bio/index.html",
     "main.437501ce.css.map": "/shivu-bio/static/css/main.437501ce.css.map",
-    "main.a49cbabc.js.map": "/shivu-bio/static/js/main.a49cbabc.js.map"
+    "main.272ef6b2.js.map": "/shivu-bio/static/js/main.272ef6b2.js.map"
   },
   "entrypoints": [
     "static/css/main.437501ce.css",
-    "static/js/main.a49cbabc.js"
+    "static/js/main.272ef6b2.js"
   ]
 }
